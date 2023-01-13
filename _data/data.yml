@@ -65,11 +65,11 @@ skillset:
         detail3: Liquid Chromatography
         detail4: Mass Spectrometry
         detail5: NMR Spectroscopy
-      - degree: Bioinformatics
+      - group: Bioinformatics
         detail1: Genome Mining
         detail2: Protein Sequence Analysis
         detail3: Structure and Function Prediction
-      - degree: IT
+      - group: IT
         detail1: Python
         detail2: MS Word/Powerpoint/Excel
         detail3: Adobe Illustrator/Photoshop/Lightroom
