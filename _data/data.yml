@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -15,9 +15,9 @@ sidebar:
     email: hyunbinlee0221 (at) gmail.com
     phone: 000 0000 0000
     # timezone: America/Cancun Timezone
-    citizenship: Korean
+    citizenship: Seoul, Korea
     # website: blog.webjeda.com #do not add http://
-    # linkedin: alandoe
+    linkedin: hyunbin-lee
     # xing: alandoe
     github: HyunbinLee221
     # telegram: # add your nickname without '@' sign
@@ -56,6 +56,24 @@ sidebar:
         - item: Soccer
           link:
 
+skillset:
+    title: Skills
+    info:
+      - group: Biochemistry
+        detail1: DNA Cloning
+        detail2: Protein Purification
+        detail3: Liquid Chromatography
+        detail4: Mass Spectrometry
+        detail5: NMR Spectroscopy
+      - degree: Bioinformatics
+        detail1: Genome Mining
+        detail2: Protein Sequence Analysis
+        detail3: Structure and Function Prediction
+      - degree: IT
+        detail1: Python
+        detail2: MS Word/Powerpoint/Excel
+        detail3: Adobe Illustrator/Photoshop/Lightroom
+    
 # career-profile:
 #     title: Summary
 #     summary: |
@@ -78,56 +96,37 @@ education:
       - degree: BS in Chemistry
         university: Seoul National University
         time: 2012 - 2016
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        details: Student Representative of the Department of Chemistry (2014)
+        # |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
 experiences:
     title: Professional Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Postdoctoral Researcher
+        time: 2021 - Present
+        company: Seoul National University (Seoul, Korea)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Studied ~~~~~
+            - Established
+            - Published
+            - Mentored
+      - role: Graduate Student Researcher
+        time: 2016 - 2021
+        company: Seoul National University (Seoul, Korea)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Doctoral thesis:
+            - Studied ~
+            - Published ~
+            - Mentored ~
+      
 projects:
-    title: Projects
+    title: Research Interests
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -154,7 +153,7 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-    title: OSS Contributions
+    title: Other Activities
     intro: >
       You can list your open source software contributions in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.

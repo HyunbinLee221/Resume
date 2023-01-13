@@ -1,0 +1,57 @@
+{% assign skillset = site.data.data.skillset %}
+{% if skillset %}
+  {% if site.data.data.sidebar.skillset %}
+  <div class="skillset-container container-block">
+
+    <h2 class="container-block-title">
+      {{ skillset.title }}
+    </h2>
+
+    {% for graduation in skillset.info %}
+    <div class="item">
+      <h4 class="group">{{ graduation.group }}</h4>
+      <h5 class="meta">{{ graduation.detail1 }}</h5>
+      <h5 class="meta">{{ graduation.detail2 }}</h5>
+      <h5 class="meta">{{ graduation.detail3 }}</h5>
+      <h5 class="meta">{{ graduation.detail4 }}</h5>
+      <h5 class="meta">{{ graduation.detail5 }}</h5>
+    </div><!--//item-->
+    {% endfor %}
+
+  </div><!--//education-container-->
+  {% else %}
+  <section class="section skillset-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ skillset.title }}
+    </h2>
+
+    {% for graduation in skillset.info %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="group">{{ graduation.group }}</h3>
+          <div class="meta">{{ graduation.detail1 }}</div>
+        </div><!--//upper-row-->
+
+        <div class="meta">{{ graduation.detail1 }}</div>
+      </div><!--//meta-->
+
+      {% if graduation.details %}
+      <div class="details">
+        {{ graduation.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+  {% endif %}
+{% endif %}
