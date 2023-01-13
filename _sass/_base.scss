@@ -44,7 +44,7 @@ p {
 }
 
 .sidebar-wrapper {
-  float: left
+  float: left;
   grid-column: span 3;
   order: 2;
   background: $theme-color;
