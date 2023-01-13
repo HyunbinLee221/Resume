@@ -44,7 +44,7 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
+  grid-column: span 7;
   order: 2;
   background: $theme-color;
   color: #fff;
@@ -160,7 +160,7 @@ p {
 }
 
 .main-wrapper {
-  grid-column: span 7;
+  grid-column: span 3;
   background: #fff;
   padding: 60px;
   .section-title {
